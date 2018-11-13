@@ -25,9 +25,11 @@ github_username:  quie87
 # Build settings
 markdown: kramdown
 theme: minima
-comments: true
 plugins:
   - jekyll-feed
+
+disqus:
+  shortname: kris-wp-app
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
