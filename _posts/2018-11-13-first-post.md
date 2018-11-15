@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mitt första blogginlägg någonsin!"
-categories: new experiences
+categories: new-experiences
 ---
 
 # Välkommen
