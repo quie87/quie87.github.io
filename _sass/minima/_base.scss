@@ -5,8 +5,9 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
-  padding: 0;
+  padding: 0.5em;
 }
+
 
 
 
@@ -47,6 +48,9 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  background-image: $background-image;
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
 }
 
 
@@ -95,6 +99,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  color: $brand-color;
 }
 
 
@@ -107,11 +112,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($brand-color, 25%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $grey-color;
     text-decoration: underline;
   }
 
@@ -195,12 +200,21 @@ pre {
 * Home
 */
 .home {
-  border: 0.2em dotted $brand-color;
+  background-color: $background-color;
+  opacity: 0.8;
+  border: $base-border;
   border-radius: 2em;
-  padding: 1em;
 }
 
-
+/**
+* Post
+*/
+.post {
+  background-color: $background-color;
+  opacity: 0.8;
+  border: $base-border;
+  border-radius: 10px;
+}
 
 /**
  * Clearfix
@@ -211,7 +225,12 @@ pre {
   clear: both;
 }
 
-
+/**
+  * Disqus
+  */
+  #disqus_thread {
+    padding: $base-padding;
+  }
 
 /**
  * Icons

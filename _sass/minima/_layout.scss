@@ -215,6 +215,7 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  padding: $base-padding;
 }
 
 .post-title {
@@ -229,6 +230,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  padding: $base-padding;
 
   h2 {
     @include relative-font-size(2);
