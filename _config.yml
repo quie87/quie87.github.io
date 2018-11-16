@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Detta är en blogg där jag kommer posta saker som jag lär mig, samt tankar kring projekt, under utbildningstiden.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.KTR-Development.se" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  quie87
 
 # Build settings
