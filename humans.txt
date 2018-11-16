@@ -1,0 +1,9 @@
+/* Team */
+	Author: Kristoffer Åberg
+	Contact: ka222vq@student.lnu.student
+	From: Alstermo, Sweden
+
+/* SITE */
+	Last update:2018/11/17
+	Language: Swedish
+	Doctype:HTML5
