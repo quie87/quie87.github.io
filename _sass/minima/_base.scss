@@ -5,7 +5,7 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
-  padding: 0.5em;
+  padding: $base-padding;
 }
 
 
@@ -50,6 +50,7 @@ main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
   background-image: $background-image;
   background-repeat: no-repeat, repeat;
+  background-repeat: repeat-y;
   background-size: 100%;
 }
 
@@ -103,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
@@ -116,7 +116,7 @@ a {
   }
 
   &:hover {
-    color: $grey-color;
+    color: $red-color;
     text-decoration: underline;
   }
 
@@ -154,9 +154,6 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
 }
 
 code {
@@ -213,7 +210,11 @@ pre {
   background-color: $background-color;
   opacity: 0.8;
   border: $base-border;
-  border-radius: 10px;
+  border-radius: 2em;
+
+    h1,h2,h3,h4 {
+      margin-bottom: 0px;
+    }
 }
 
 /**
